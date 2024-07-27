@@ -1,0 +1,12 @@
+.joke{
+    width: 80vw;
+    height: auto;
+    background-color: white;
+    color: black;
+    padding-left: 2rem;
+}
+
+.joke-btn{
+    background-color: aquamarine;
+    width: fit-content;
+}
