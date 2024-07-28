@@ -8,5 +8,13 @@
 
 .joke-btn{
     background-color: aquamarine;
+    width: -moz-fit-content;
     width: fit-content;
+}
+
+.line{
+    width: 25vw;
+    background: linear-gradient(90deg,#f40996, blue);
+    height: 3px;
+    margin-top: -2rem;
 }

@@ -22,16 +22,17 @@ const Joke = () => {
   useEffect(()=>{
     HandleJokes()
   }, [])
+  
   return (
     <>
     <div className='joke'>
       <h1>Jokes Generator</h1>
+      <div className='line'></div>
       {
         isLoading ? (<img src = {myImage}/>) : (<p>{jokes.value}</p>)
         
       }
       <h4 className='joke-id'>Joke-Id:{jokes.id}</h4>
-      <p>{jokes.value}</p>
       <button className='joke-btn' onClick={()=>HandleJokes()}>Generate Joke</button>
     </div>
     
